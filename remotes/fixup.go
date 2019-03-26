@@ -8,10 +8,11 @@ import (
 
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/remotes"
-	"github.com/deislabs/duffle/pkg/bundle"
 	"github.com/docker/cli/cli/config/configfile"
 	"github.com/docker/distribution/reference"
 	ocischemav1 "github.com/opencontainers/image-spec/specs-go/v1"
+
+	"github.com/docker/cnab-to-oci/bundle"
 )
 
 const (

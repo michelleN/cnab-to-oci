@@ -7,10 +7,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/deislabs/duffle/pkg/bundle"
 	"github.com/docker/cnab-to-oci/remotes"
 	"github.com/docker/distribution/reference"
 	"github.com/spf13/cobra"
+
+	"github.com/docker/cnab-to-oci/bundle"
 )
 
 type pushOptions struct {

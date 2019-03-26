@@ -8,12 +8,13 @@ import (
 	"github.com/containerd/containerd/errdefs"
 	"github.com/containerd/containerd/images"
 	"github.com/containerd/containerd/remotes"
-	"github.com/deislabs/duffle/pkg/bundle"
-	"github.com/docker/cnab-to-oci/converter"
 	"github.com/docker/distribution/reference"
 	"github.com/opencontainers/go-digest"
 	ocischemav1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
+
+	"github.com/docker/cnab-to-oci/bundle"
+	"github.com/docker/cnab-to-oci/converter"
 )
 
 // ManifestOption is a callback used to customize a manifest before pushing it

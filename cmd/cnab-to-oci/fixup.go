@@ -7,11 +7,12 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/deislabs/duffle/pkg/bundle"
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cnab-to-oci/remotes"
 	"github.com/docker/distribution/reference"
 	"github.com/spf13/cobra"
+
+	"github.com/docker/cnab-to-oci/bundle"
 )
 
 type fixupOptions struct {

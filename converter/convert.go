@@ -7,10 +7,11 @@ import (
 	"fmt"
 
 	"github.com/containerd/containerd/images"
-	"github.com/deislabs/duffle/pkg/bundle"
 	"github.com/docker/distribution/reference"
 	ocischema "github.com/opencontainers/image-spec/specs-go"
 	ocischemav1 "github.com/opencontainers/image-spec/specs-go/v1"
+
+	"github.com/docker/cnab-to-oci/bundle"
 )
 
 const ( // General values

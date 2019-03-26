@@ -7,12 +7,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/deislabs/duffle/pkg/bundle"
 	"github.com/docker/cnab-to-oci/converter"
 	"github.com/docker/cnab-to-oci/tests"
 	"github.com/docker/distribution/reference"
 	ocischemav1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"gotest.tools/assert"
+
+	"github.com/docker/cnab-to-oci/bundle"
 )
 
 const (
